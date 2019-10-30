@@ -1,7 +1,9 @@
 # annoyed-text-extension
 
 I've made this extension just for fun. The extension let's you type in a specific manner.
+```
 Example : "ThIs Is HoW It LeT's YoU TyPe"
+```
 
 ## Prerequisites
 
