@@ -1,0 +1,23 @@
+  {
+      "name": "TyPe LiKe ThIs",
+      "description" : "A fun little project that funds the meme economy.",
+      "version": "1.0",
+      "manifest_version": 2,
+      "author": "Suciu Florin",
+      "permissions": ["storage", "declarativeContent", "tabs"],
+      "browser_action": {
+          "default_popup": "popup.html",
+          "default_icon": "images/sponge16.png",
+          "default_title": "TyPe LiKe ThIs"
+      },
+      "icons": {
+          "16": "images/sponge16.png",
+          "32": "images/sponge32.png",
+          "48": "images/sponge48.png",
+          "128": "images/sponge128.png"
+      },
+      "background": {
+          "scripts": ["background.js"],
+          "persistent": true
+      }
+  }
